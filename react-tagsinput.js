@@ -190,7 +190,7 @@
     , addTag: function (tag) {
       var valueLink = this.getValueLink();
 
-      var newTag = this.props.transform(tag);
+      var newTag = this.props.transform(tag, this.addTag.bind(this));
 
       if (!newTag) { return ; }
 

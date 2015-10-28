@@ -1,6 +1,6 @@
 {
   "name": "react-tagsinput",
-  "version": "1.4.8-hotfix0",
+  "version": "1.4.8-hotfix1",
   "description": "Simple react.js component for inputing tags",
   "main": "react-tagsinput.js",
   "devDependencies": {
